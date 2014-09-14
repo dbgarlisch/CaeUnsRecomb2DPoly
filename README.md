@@ -14,7 +14,7 @@ To build the CaeUnsRecomb2DPoly plugin you must integrate this source code into 
 * Configure and validate the SDK following the [SDK's instructions][SDKdocs].
 * Create an Recomb2DPoly plugin project using the mkplugin script: `mkplugin -uns -cpp Recomb2DPoly`
 * Replace the project's generated files with the files from this repository.
-
+* This plugin uses the Configurable Math Library. You can download it from the [CML website][CMLwebsite].
 
 ## Disclaimer
 Plugins are freely provided. They are not supported products of
@@ -36,3 +36,4 @@ POINTWISE.
 [TriToPolyImage]: https://raw.github.com/dbgarlisch/CaeUnsRecomb2DPoly/master/triToPoly.png  "tris converted to polygons Image"
 [SDKdocs]: http://www.pointwise.com/plugins
 [SDKdownload]: http://www.pointwise.com/plugins/#sdk_downloads
+[CMLwebsite]: http://cmldev.net/
